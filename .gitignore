@@ -1,0 +1,58 @@
+# GENERAL
+.Vscode
+
+# JAVASCRIPTS
+
+# dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+
+# testing
+/frontend/coverage
+
+# production
+/frontend/build
+
+# misc
+/frontend/.DS_Store
+/frontend/.vscode
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# RUBY/RAILS
+# Ignore bundler config.
+/backend/.bundle
+
+# Ignore all logfiles and tempfiles.
+/backend/log/*
+/backend/tmp/*
+!/backend/log/.keep
+!/backend/tmp/.keep
+
+# Ignore pidfiles, but keep the directory.
+/backend/tmp/pids/*
+!/backend/tmp/pids/
+!/backend/tmp/pids/.keep
+
+# Ignore uploaded files in development.
+/backend/storage/*
+!/backend/storage/.keep
+/backend/.byebug_history
+
+# misc
+/backend/.DS_Store
+/backend/.vscode
+/backend/.env.local
+/backend/.env.development.local
+/backend/.env.test.local
+/backend/.env.production.local
+
+# Ignore master key for decrypting credentials and more.
+/backend/config/master.key
