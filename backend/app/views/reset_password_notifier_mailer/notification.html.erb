@@ -1,0 +1,5 @@
+<p>Hi <%= @user_name %>,</p>
+<p>We have received a request to reset your password. Don't worry, if you did not request a password reset simply ignore this email and your password will remain unchanged.</p>
+<p>To change your password, <a href="https://app.workeasy.ie/accounts/password_reset?email=<%= @user_email %>&token=<%= @user_reset_password_token %>">follow this link and complete the steps outlined</a>.</p>
+<p>If you experenice any issues simply left click copy the link and past it into a browser url bar </p>
+<p>Workeasy</p>
